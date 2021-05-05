@@ -52,6 +52,7 @@ h3.title-heading::after {
 }
 .about-list ul li {
   margin-bottom: 1rem;
+  word-break: break-all;
 }
 .social-link i {
   height: 40px;

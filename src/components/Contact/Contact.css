@@ -1,6 +1,7 @@
 .contact-us {
   padding: 75px 0;
   color: #333;
+  word-break: break-all;
 }
 .contact-us .contact-us-title {
   margin-bottom: 55px;

@@ -88,14 +88,14 @@
     display: block !important;
     z-index: 9999;
   }
-  .menuopenclose .first,
-  .menuopenclose .last {
+  .active .first,
+  .active .last {
     display: none;
   }
-  .menuopenclose .middle1 {
+  .active .middle1 {
     transform: rotate(45deg);
   }
-  .menuopenclose .middle2 {
+  .active .middle2 {
     transform: rotate(-45deg);
   }
   .menu-btn {
@@ -125,11 +125,15 @@
     position: fixed;
     height: 100%;
     width: 100%;
-    left: 0%;
+    left: -100%;
     top: 0;
-    background-color: #fdbf46;
+    background-color: #2d2d3a;
     transition: 0.3s ease-in;
   }
+  .menu-area.active {
+    left: 0 !important;
+  }
+
   .menu-area .menu {
     width: 100%;
     height: 100%;

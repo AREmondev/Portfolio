@@ -23,25 +23,26 @@ function About() {
                 About <span className="color-text">Me</span>
               </h3>
               <h4>
-                I'm <span className="element color-text">Web Developer,</span>
+                I'm <span className="element color-text">Web Developer</span>
               </h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                facilis quibusdam magni soluta, recusandae laboriosam adipisci
-                nesciunt eveniet odio aliquam ut eos, dolorem aliquid.
+                I am a Full Stack Developer and Specializes in JAVASCRIPT
+                (React, Node.js, Express). And Have Lot Of Experience Building
+                Modern Web Applications. I was Completed Lot of MERN Stack
+                Project.
               </p>
               <div className="about-list">
                 <ul>
                   <li className="about-list-title">Email ID:</li>
-                  <li>abcd@gmail.com</li>
+                  <li>abdurrahmanemondev@gmail.com@gmail.com</li>
                 </ul>
                 <ul>
                   <li className="about-list-title">Address:</li>
-                  <li>Nachole,Rajshahi</li>
+                  <li>Chapai Nawabganj District, Rajshahi, Bangladesh </li>
                 </ul>
                 <ul>
                   <li className="about-list-title">Age:</li>
-                  <li>21</li>
+                  <li>23</li>
                 </ul>
                 <ul>
                   <li className="about-list-title">Nationality:</li>

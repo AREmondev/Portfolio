@@ -1,6 +1,8 @@
 .menu-btn {
   display: none;
 }
+.menu-btn.active {
+}
 header {
   background-color: #2d2d3a;
   color: #fff;
