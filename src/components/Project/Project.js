@@ -30,7 +30,10 @@ function Project() {
           </div>
         </div>
         <div className="row project-items">
-          <div
+          <a
+            href="https://tender-heisenberg-7c181f.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
             className="col md-6 lg-4 item  project-item "
             data-wow-duration="1.2s"
           >
@@ -43,8 +46,11 @@ function Project() {
                 <h4>E-Shop MERN Project</h4>
               </div>
             </div>
-          </div>
-          <div
+          </a>
+          <a
+            href="https://infallible-lichterman-52e071.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
             className="col md-6 lg-4 webdevelopment webdesign item project-item wow animate__fadeInUp"
             data-wow-duration="1.35s"
           >
@@ -57,8 +63,11 @@ function Project() {
                 <h4>Builder MERN Project</h4>
               </div>
             </div>
-          </div>
-          <div
+          </a>
+          <a
+            href="https://modikhana-shop.firebaseapp.com/"
+            target="_blank"
+            rel="noreferrer"
             className="col md-6 lg-4 webdesign graphics item project-item wow animate__fadeInUp"
             data-wow-duration="1.5s"
           >
@@ -71,8 +80,11 @@ function Project() {
                 <h4>Modikhana MERN project</h4>
               </div>
             </div>
-          </div>
-          <div
+          </a>
+          <a
+            href="https://aremondev.github.io/anikas/"
+            target="_blank"
+            rel="noreferrer"
             className="col md-6 lg-4 webdesign graphics item project-item wow animate__fadeInUp"
             data-wow-duration="1.5s"
           >
@@ -85,8 +97,11 @@ function Project() {
                 <h4>ANIKAS Responsive Portfolio </h4>
               </div>
             </div>
-          </div>
-          <div
+          </a>
+          <a
+            href="https://aremondev.github.io/dashboard/"
+            target="_blank"
+            rel="noreferrer"
             className="col md-6 lg-4 webdesign graphics item project-item wow animate__fadeInUp"
             data-wow-duration="1.5s"
           >
@@ -99,8 +114,11 @@ function Project() {
                 <h4>Dashboard Responsive Design </h4>
               </div>
             </div>
-          </div>
-          <div
+          </a>
+          <a
+            href="https://aremondev.github.io/applab/"
+            target="_blank"
+            rel="noreferrer"
             className="col md-6 lg-4 webdesign graphics item project-item wow animate__fadeInUp"
             data-wow-duration="1.5s"
           >
@@ -113,7 +131,7 @@ function Project() {
                 <h4>AppLab Responsive Landing Page</h4>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </section>

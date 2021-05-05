@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import { Link } from 'react-router-dom'
-import aboutImg from '../../img/about-img.jpg'
+import aboutImg from '../../img/are.jpg'
 
 function About() {
   return (
@@ -34,11 +34,11 @@ function About() {
               <div className="about-list">
                 <ul>
                   <li className="about-list-title">Email ID:</li>
-                  <li>abdurrahmanemondev@gmail.com@gmail.com</li>
+                  <li>abdurrahmanemondev@gmail.com</li>
                 </ul>
                 <ul>
                   <li className="about-list-title">Address:</li>
-                  <li>Chapai Nawabganj District, Rajshahi, Bangladesh </li>
+                  <li>Nachole, Chapai Nawabganj, Rajshahi </li>
                 </ul>
                 <ul>
                   <li className="about-list-title">Age:</li>
@@ -58,18 +58,32 @@ function About() {
                   <span>My Work</span>
                 </button>
                 <div className="social-link  row">
-                  <Link to="/">
+                  <a
+                    href="https://www.facebook.com/abdurrahmanemondev/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="fab facebook fa-facebook-f"></i>
-                  </Link>
-                  <Link to="/">
+                  </a>
+                  {/* <a  href="https://www.facebook.com/abdurrahmanemondev/"
+                    target="_blank"
+                    rel="noreferrer">
                     <i className="fab twitter fa-twitter"></i>
-                  </Link>
-                  <Link to="/">
+                  </a> */}
+                  <a
+                    href="https://www.linkedin.com/in/abdur-rahman-a5b12a1a3/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="fab linkdin fa-linkedin-in"></i>
-                  </Link>
-                  <Link to="/">
-                    <i className="fab instagram fa-instagram"></i>
-                  </Link>
+                  </a>
+                  <a
+                    href="https://github.com/AREmondev"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
                 </div>
               </div>
             </div>
