@@ -1,0 +1,33 @@
+.service {
+  color: #000000;
+  text-align: center;
+  padding: 75px 0;
+  background-color: rgb(248, 239, 239);
+}
+.service-title {
+  margin-bottom: 55px;
+}
+.service i {
+  font-size: 55px;
+  text-align: center;
+  color: #ffbb00fb;
+}
+.service-card {
+  padding: 40px 26px;
+  background-color: #ffffff;
+  box-shadow: 0 0 2px rgb(206, 206, 206);
+  transition: 0.35s;
+  margin-bottom: 30px;
+}
+.service-card h4 {
+  transition: 0.35s;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+.service-card:hover {
+  box-shadow: 0 0 5px rgba(122, 120, 120, 0.596);
+  transform: translateY(-5px) scale(1);
+}
+.service-card:hover h4 {
+  color: #ffcc00;
+}

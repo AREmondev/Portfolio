@@ -1,0 +1,28 @@
+.menu-btn {
+  display: none;
+}
+header {
+  background-color: #2d2d3a;
+  color: #fff;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+.header {
+  justify-content: space-between;
+}
+.menu,
+.header {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+}
+.menu a {
+  margin-left: 18px;
+}

@@ -1,38 +1,124 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.7;
+  letter-spacing: 0.8px;
+  color: #636363;
+  letter-spacing: 0.9px;
+}
+p {
+  font-weight: 400;
+}
+a {
+  font-weight: 500;
+}
+.container-wide {
+  max-width: 1560px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+ul,
+li {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.55;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+}
+h2 {
+  font-size: 44px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 35px;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+p {
+  line-height: 1.75;
+  color: #636363;
+  letter-spacing: 0.9px;
+}
+a,
+button,
+a:focus,
+button:focus {
+  outline: none;
+  box-shadow: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
+  opacity: 1;
+  color: #fff;
+  letter-spacing: 1px;
+}
+a:hover {
+  text-decoration: none;
+  opacity: 1;
+  color: #fff;
+}
+a.btn {
+  border-radius: 0;
+  letter-spacing: 0.8px;
+}
+.active {
+  color: #ffcc01 !important;
+}
+.active-category {
+  background-color: ffcc01;
+  color: #ffffff !important;
+}
+span.color-text {
+  color: #ffcc01 !important;
+}
+.card {
+  border: none;
+  -webkit-box-shadow: 0 0 3px #7070706c;
+  box-shadow: 0 0 3px #7070706c;
+}
+img {
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Global */
+.row {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  margin: 0 -15px;
+  flex-wrap: wrap;
+  font-family: 'Montserrat', sans-serif !important;
 }
-
-.App-link {
-  color: #61dafb;
+.col {
+  width: 100%;
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.lg-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.lg-4 {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
 }
